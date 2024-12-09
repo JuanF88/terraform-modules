@@ -41,8 +41,6 @@ output "network_security_group_exclusion" {
 output "virtual_networks" {
   description = "IP address CIDR notation for standard infrastructure virtual networks."
   value = {
-    virtual_hub_primary   = local.virtual_hub_primary
+    virtual_hub_primary = local.virtual_hub_primary
   }
 }
-
-
