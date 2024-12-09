@@ -5,5 +5,5 @@ locals {
 }
 
 locals {
-  environment_abbrevation = local.environments[replace(lower(var.environment), "", "")]
+  environment_abbreviation = local.environments[replace(lower(var.environment), "", "")]
 }
